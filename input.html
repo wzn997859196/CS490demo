@@ -8,9 +8,25 @@
 		<li><a href="output.html">Output</a></li>
 	</ul>
 
+	<p><label for="source-select">Choose a source:</label>
+	<select name="text"> <!--Supplement an id here instead of using 'text'-->
+  		<option value="first">Local file</option> 
+  		<option value="second" selected>API</option>
+  		<option value="third">Other Source</option>
+	</select>
+	<button type="choose-button">Done</button></p>
+
+	<label for="Trans">Add one exact transaction:</label>
+
+	<form action="/action_page.php">
+		Name : <input type="text" name="fname"><br>
+  		Debit : <input type="text" name="fname"><br>
+  		Credit:    <input type="text" name="lname"><br>
+  		
+	</form>
+	<button type="add-button">Submit</button>
 
 </body>
-
 
 
 
