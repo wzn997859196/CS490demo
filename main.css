@@ -1,0 +1,49 @@
+body {
+	background: lightblue;
+	font-family: arial;
+}
+
+.row {
+	margin: 5px;
+}
+
+.col1 {
+	margin:15px;
+	background: #87CEFA;
+	color: white;
+	padding: 10px;
+	
+}
+.col2 {
+	margin:15px;
+	background: #00BFFF;
+	color: white;
+	padding: 10px;
+}
+
+.col3 {
+	margin:15px;
+	background: #6495ED;
+	color: white;
+	padding: 10px;
+}
+
+.col4 {
+	margin:15px;
+	background: #1E90FF;
+	color: white;
+	padding: 10px;
+}
+
+.col5 {
+	margin:15px;
+	background: darkblue;
+	color: white;
+	padding: 10px;
+}
+
+.choosesource {
+	background: darkblue;
+	color: white;
+	padding: 10px;
+}
