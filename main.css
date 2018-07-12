@@ -3,43 +3,30 @@ body {
 	font-family: arial;
 }
 
-.row {
-	margin: 5px;
+.name {
+	color: lightblue;
+}
+.debit {
+	color: lightblue;
 }
 
-.col1 {
-	margin:15px;
-	background: #87CEFA;
-	color: white;
-	padding: 10px;
-	
+.credit {
+	color: lightblue;
 }
-.col2 {
-	margin:15px;
-	background: #00BFFF;
-	color: white;
-	padding: 10px;
+.typename {
+	color: black;
 }
 
-.col3 {
-	margin:15px;
-	background: #6495ED;
-	color: white;
-	padding: 10px;
+.typedebit {
+	color: black;
 }
 
-.col4 {
-	margin:15px;
-	background: #1E90FF;
-	color: white;
-	padding: 10px;
+.typecredit {
+	color: black;
 }
 
-.col5 {
-	margin:15px;
-	background: darkblue;
-	color: white;
-	padding: 10px;
+form {
+	padding: 15px;
 }
 
 .choosesource {

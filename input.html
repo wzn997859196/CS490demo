@@ -59,22 +59,32 @@
 		</header>
 
 		<div class="container">
-			<p class="choosesource"><b>Choose a source: </b>
-			<select name="text"> <!--Supplement an id here instead of using 'text'-->
-		  		<option value="first">Local file</option> 
-		  		<option value="second" selected>API</option>
-		  		<option value="third">Other Source</option>
-			</select>
-			<button type="button" class="btn btn-default btn-xs">Done</button></p>
-
-			<div class="row">
-				<div class="col1">Add one exact transaction:</div>
-				<div class="col2">Name : <input type="text" name="fname"><br></div>
-				<div class="col3">Debit :  <input type="text" name="fname"><br></div>
-				<div class="col4">Credit: <input type="text" name="lname"><br></div>
-				<div class="col5"><button type="button" class="btn btn-default btn-xs">Submit</button></div>
+			<div class="panel panel-primary">
+				<div class="panel-heading">Choose a source:</div>
+				<div class="panel-body">
+					<select name="text"> <!--Supplement an id here instead of using 'text'-->
+		  				<option value="first">Local file</option> 
+		  				<option value="second" selected>API</option>
+		  				<option value="third">Other Source</option>
+					</select>
+					<button type="button" class="btn btn-primary btn-xs">Done</button>
+				</div>
 			</div>
 		</div>
+
+		<div class="container">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Add one exact transaction:</div>
+				<div class="panel-body">
+					<p class="name">Name : <input class="typename" type="text" name="fname"><br></p>
+					<p class="debit">Debit :  <input class="typedebit" type="text" name="fname"><br></p>
+					<p class="credit">Credit: <input class="typecredit" type="text" name="lname"><br></p>
+					<p class="typesubmit"><button type="button" class="btn btn-primary btn-sm">Submit</button></p>
+
+				</div>
+			</div>
+		</div>
+
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
