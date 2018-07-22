@@ -60,7 +60,105 @@
 	<div class="container">
 		<h1 class="income">Cash Flow</h1>
 	
-		<img src="cashflow.jpg">
+		<!--<img src="cashflow.jpg">-->
+		
+		<table> 
+			<h4>Cash flow from operating activities:</h4>
+			<tr> 
+				<th>Cash received from customers</th>
+				<td>$150000</td>
+				<td></td> 
+			</tr> 
+			<tr> 
+				<th>Cash paid to suppliers and employees</th> 
+				<td>$-90000</td>
+			</tr> 
+			<tr> 
+				<th>Interest paid</th> 
+				<td>$-5000</td>
+			</tr> 
+			<tr> 
+				<th>Income tax paid</th> 
+				<td>$-4500</td>
+			</tr> 
+			<tr> 
+				<th>Interest and dividends received</th> 
+				<td><U>$1500</U></td>
+			</tr>
+			<tr> 
+				<th>Net cash provided by operating activities</th> 
+				<td></td>
+				<td>$52000</td>
+			</tr>
+		</table>
+		<table>	
+			<h4>Cash flow from investing activities</h4>
+			<tr> 
+				<th>Proceeds from sale of plant assets</th> 
+				<td>$4000</td>
+			</tr> 
+			<tr> 
+				<th>Payments for purchase of equipment</th> 
+				<td><U>$-<span id="data1"></span></U></td>
+			</tr> 
+			<tr> 
+				<th>Net cash provided by investing activities</th> 
+				<td></td>
+				<td>$<span id="data2"></span></td>
+			</tr> 
+			
+		</table>
+		
+		<table>
+			<h4>Cash flows from financing activities</h4>
+			<tr>
+			    <th>Proceeds from issurance of short-term debt</th> 
+			    <td>$3000</td>
+			</tr>
+			<tr> 
+				<th>Payments of long-term debt</th> 
+				<td>$(7000)</td>
+			</tr> 
+			<tr> 
+				<th>Payments of dividends</th> 
+				<td>$(15000)</td>
+			</tr>
+			<tr> 
+				<th>Net cash inflow from financing activities</th>
+				<td></td> 
+				<td>$(19000)</td>
+			</tr>  
+			<tr> 
+				<th>Net change in cash and equivalent</th>
+				<td></td> 
+				<td>$<span id="data3"></span></td>
+			</tr>  
+			
+			<tr> 
+				<th>Cash balance (beginning of year)</th>
+				<td></td> 
+				<td>$-2000</td>
+			</tr> 
+			<tr> 
+				<th>Cash balance (end of year)</th>
+				<td></td> 
+				<td>$<span id="data4"></span></td>
+			</tr> 
+			
+		</table>
+		
+		<script>
+				var data1 = 10000;
+				var data2 = -data1+4000;
+				var data3 =37000-data1;
+				var data4=35000-data1;
+				
+				document.getElementById("data1").innerHTML = data1; 
+				document.getElementById("data2").innerHTML = data2; 
+				document.getElementById("data3").innerHTML = data3; 
+				document.getElementById("data4").innerHTML = data4;
+		</script>
+
 	
 		<div class="dropdown" style="float:right;">
 			<button class="dropbtn">output format</button>

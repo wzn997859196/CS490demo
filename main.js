@@ -4,7 +4,7 @@ document.getElementById("btn-html2canvas").onclick = function(){
 
         onrendered: function(canvas) {
 
-            var imgData = canvas.toDataURL('image/png');
+            var imgData = canvas.toDataURL('image/jpeg');
 
             var doc = new jsPDF("p", "mm", "a4");
               
